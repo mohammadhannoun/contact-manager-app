@@ -1,0 +1,112 @@
+/* Overall App Styling */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Center the App */
+  .app {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+  }
+  
+  /* Title Styling */
+  .app h1 {
+    font-size: 28px;
+    border-left: 5px solid #00bcd4;
+    padding-left: 10px;
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+  
+  /* Contact Form */
+  .contact-form {
+    display: flex;
+    gap: 10px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .contact-form button {
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0097a7;
+  }
+  
+  /* Contact List */
+  .contact-list {
+    margin-top: 30px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-list h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  /* Individual Contact Item */
+  .contact-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e0f7fa;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  
+  .contact-item p {
+    margin: 0;
+    font-weight: 500;
+  }
+  
+  .contact-item button {
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+  }
+  
+  .contact-item button:hover {
+    background-color: #0097a7;
+  }
+  
+  /* Responsive for Mobile */
+  @media (max-width: 600px) {
+    .contact-form {
+      flex-direction: column;
+    }
+  
+    .contact-form input,
+    .contact-form button {
+      width: 100%;
+    }
+  }
+  
